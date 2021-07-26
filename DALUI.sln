@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DALUI", "DALUI\DALUI.csproj", "{CD4B9864-F931-459F-8A54-641ACDC32EE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{44B6FBA6-20CC-47D9-BF0C-DAC47C0F843B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD4B9864-F931-459F-8A54-641ACDC32EE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD4B9864-F931-459F-8A54-641ACDC32EE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD4B9864-F931-459F-8A54-641ACDC32EE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD4B9864-F931-459F-8A54-641ACDC32EE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44B6FBA6-20CC-47D9-BF0C-DAC47C0F843B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44B6FBA6-20CC-47D9-BF0C-DAC47C0F843B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44B6FBA6-20CC-47D9-BF0C-DAC47C0F843B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44B6FBA6-20CC-47D9-BF0C-DAC47C0F843B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {61D33FAE-8425-411A-B473-B8C44891E9CC}
+	EndGlobalSection
+EndGlobal
