@@ -35,7 +35,7 @@ namespace DAL
             try
             {
                 sqlConObj = new SqlConnection(ConfigurationManager.ConnectionStrings["ProjConStr"].ToString());
-                sqlCmdObj = new SqlCommand(@"Select ParticipantId,ParticipantName,ParticipantEmail from Participants", sqlConObj);
+                sqlCmdObj = new SqlCommand(@"Select ParticipantId,ParticipantName,ParticipantEmail from Participant", sqlConObj);
                 sqlConObj.Open();
                 SqlDataReader drPart = sqlCmdObj.ExecuteReader();
                 while (drPart.Read())

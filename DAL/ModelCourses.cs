@@ -20,7 +20,7 @@ namespace DAL
                 // Creating Connection  
                 sqlConObj = new SqlConnection(ConfigurationManager.ConnectionStrings["ProjConStr"].ToString());
                 // writing sql query  
-                sqlCmdObj = new SqlCommand("SELECT ModelId,CourseId FROM dbo.ModelCourses", sqlConObj);
+                sqlCmdObj = new SqlCommand("SELECT ModelId,CourseId FROM ModelCourses", sqlConObj);
                 // Opening Connection  
                 sqlConObj.Open();
 
@@ -28,7 +28,7 @@ namespace DAL
                 SqlDataReader sdr = sqlCmdObj.ExecuteReader();
                 while (sdr.Read())
                 {
-                    lst.Add(String.Concat(sdr["ModelId"], sdr["CourseId"]));
+                    lst.Add(String.Concat(sdr["ModelId"] + " ", sdr["CourseId"]));
                 }
                 return lst;
             }

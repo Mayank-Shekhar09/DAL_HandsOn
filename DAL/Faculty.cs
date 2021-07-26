@@ -40,7 +40,7 @@ namespace DAL
                 SqlDataReader drFaculty = sqlCmdObj.ExecuteReader();
                 while (drFaculty.Read())
                 {
-                    lstFaculty.Add(String.Concat(drFaculty["PSNo"] + "  ", drFaculty["EmailID"] + "  ", drFaculty["FacultyName"]));
+                    lstFaculty.Add(String.Concat(drFaculty["PSNo"] + "  ", drFaculty["EmailID"] + "  ", drFaculty["NAME"]));
                 }
                 return lstFaculty;
             }
